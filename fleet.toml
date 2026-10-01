@@ -1,0 +1,82 @@
+# GENERATED - do not edit; regenerate from the private inventory.
+schema = 2
+
+[[cohort]]
+name        = "way-a"
+description = "follows the Way-A workflow: .ai, .cicd and .fleet pinned, workflow.just imported"
+
+[[cohort]]
+name        = "pypi"
+description = "Python packages published to PyPI by the release workflow"
+
+[[repo]]
+name           = "autobahn-python"
+slug           = "crossbario/autobahn-python"
+default_branch = "master"
+cohorts        = ["way-a", "pypi"]
+
+[[repo]]
+name           = "autobahn-js"
+slug           = "crossbario/autobahn-js"
+default_branch = "master"
+cohorts        = ["way-a"]
+
+[[repo]]
+name           = "autobahn-java"
+slug           = "crossbario/autobahn-java"
+default_branch = "master"
+cohorts        = []
+
+[[repo]]
+name           = "autobahn-cpp"
+slug           = "crossbario/autobahn-cpp"
+default_branch = "master"
+cohorts        = []
+
+[[repo]]
+name           = "autobahn-testsuite"
+slug           = "crossbario/autobahn-testsuite"
+default_branch = "master"
+cohorts        = ["way-a"]
+
+[[repo]]
+name           = "crossbar"
+slug           = "crossbario/crossbar"
+default_branch = "master"
+cohorts        = ["way-a", "pypi"]
+
+[[repo]]
+name           = "crossbar-examples"
+slug           = "crossbario/crossbar-examples"
+default_branch = "master"
+cohorts        = []
+
+[[repo]]
+name           = "txaio"
+slug           = "crossbario/txaio"
+default_branch = "master"
+cohorts        = ["way-a", "pypi"]
+
+[[repo]]
+name           = "cfxdb"
+slug           = "crossbario/cfxdb"
+default_branch = "master"
+cohorts        = ["way-a", "pypi"]
+
+[[repo]]
+name           = "zlmdb"
+slug           = "crossbario/zlmdb"
+default_branch = "master"
+cohorts        = ["way-a", "pypi"]
+
+[[repo]]
+name           = "wamp-xbr"
+slug           = "crossbario/wamp-xbr"
+default_branch = "master"
+cohorts        = ["way-a", "pypi"]
+
+[[repo]]
+name           = "sphinxcontrib-soliditydomain"
+slug           = "typedefint/sphinxcontrib-soliditydomain"
+default_branch = "master"
+cohorts        = []
