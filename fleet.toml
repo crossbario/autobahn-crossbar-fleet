@@ -9,11 +9,15 @@ description = "follows the Way-A workflow: .ai, .cicd and .fleet pinned, workflo
 name        = "pypi"
 description = "Python packages published to PyPI by the release workflow"
 
+[[cohort]]
+name        = "python-package"
+description = "follows the house Python-package standard (SPDX/license headers, hatchling, CalVer, ruff/ty/pytest) - checked & reconciled by the python-package aspect (autobahn-crossbar-ai)"
+
 [[repo]]
 name           = "autobahn-python"
 slug           = "crossbario/autobahn-python"
 default_branch = "master"
-cohorts        = ["way-a", "pypi"]
+cohorts        = ["way-a", "pypi", "python-package"]
 
 [[repo]]
 name           = "autobahn-js"
@@ -43,7 +47,7 @@ cohorts        = ["way-a"]
 name           = "crossbar"
 slug           = "crossbario/crossbar"
 default_branch = "master"
-cohorts        = ["way-a", "pypi"]
+cohorts        = ["way-a", "pypi", "python-package"]
 
 [[repo]]
 name           = "crossbar-examples"
@@ -55,28 +59,34 @@ cohorts        = []
 name           = "txaio"
 slug           = "crossbario/txaio"
 default_branch = "master"
-cohorts        = ["way-a", "pypi"]
+cohorts        = ["way-a", "pypi", "python-package"]
 
 [[repo]]
 name           = "cfxdb"
 slug           = "crossbario/cfxdb"
 default_branch = "master"
-cohorts        = ["way-a", "pypi"]
+cohorts        = ["way-a", "pypi", "python-package"]
 
 [[repo]]
 name           = "zlmdb"
 slug           = "crossbario/zlmdb"
 default_branch = "master"
-cohorts        = ["way-a", "pypi"]
+cohorts        = ["way-a", "pypi", "python-package"]
 
 [[repo]]
 name           = "wamp-xbr"
 slug           = "crossbario/wamp-xbr"
 default_branch = "master"
-cohorts        = ["way-a", "pypi"]
+cohorts        = ["way-a", "pypi", "python-package"]
 
 [[repo]]
 name           = "sphinxcontrib-soliditydomain"
 slug           = "typedefint/sphinxcontrib-soliditydomain"
 default_branch = "master"
 cohorts        = []
+
+[[repo]]
+name           = "autobahn-crossbar-ai"
+slug           = "crossbario/autobahn-crossbar-ai"
+default_branch = "main"
+cohorts        = ["way-a"]
