@@ -1,0 +1,79 @@
+schema = 1
+id = "20261008-python-package"
+aspect = "python-package"
+status = "issues-filed"
+fleet = "crossbario/autobahn-crossbar-fleet"
+fleet_issue = 15
+
+[provider]
+repo = "crossbario/autobahn-crossbar-ai"
+rev = "77eb90baa33f76272b5472b2fe3b1592e00b830b"
+
+[apex]
+rev = "c62e78ee512b7765b105ccc6bac3d6a041fb7693"
+
+[[member]]
+repo = "autobahn-python"
+slug = "crossbario/autobahn-python"
+issue = 1975
+base = "07da279559b2a2e999592bd644a97d1e003db987"
+provider_pin = "77eb90baa33f76272b5472b2fe3b1592e00b830b"
+changes = ["aspects.toml", ".gitmodules", ".autobahn-crossbar-ai"]
+aspects_toml_sha256 = "61aa2d5f649951d82f82f597e45356083a206de4937c461266f58b7e3bd9060c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
+
+[[member]]
+repo = "crossbar"
+slug = "crossbario/crossbar"
+issue = 2307
+base = "612485b8d63c8e8548e884e4e9dc9a52634146c5"
+provider_pin = "77eb90baa33f76272b5472b2fe3b1592e00b830b"
+changes = ["aspects.toml", ".gitmodules", ".autobahn-crossbar-ai"]
+aspects_toml_sha256 = "61aa2d5f649951d82f82f597e45356083a206de4937c461266f58b7e3bd9060c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
+
+[[member]]
+repo = "txaio"
+slug = "crossbario/txaio"
+issue = 236
+base = "58e5e4dbda26a2f7a231490ed54c0f55750966bc"
+provider_pin = "77eb90baa33f76272b5472b2fe3b1592e00b830b"
+changes = ["aspects.toml", ".gitmodules", ".autobahn-crossbar-ai"]
+aspects_toml_sha256 = "61aa2d5f649951d82f82f597e45356083a206de4937c461266f58b7e3bd9060c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
+
+[[member]]
+repo = "cfxdb"
+slug = "crossbario/cfxdb"
+issue = 133
+base = "5253306a97eab13493215a0314316cad8a44b914"
+provider_pin = "77eb90baa33f76272b5472b2fe3b1592e00b830b"
+changes = ["aspects.toml", ".gitmodules", ".autobahn-crossbar-ai"]
+aspects_toml_sha256 = "61aa2d5f649951d82f82f597e45356083a206de4937c461266f58b7e3bd9060c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
+
+[[member]]
+repo = "zlmdb"
+slug = "crossbario/zlmdb"
+issue = 160
+base = "a4b36c34df292470e0f0b8df5149d10d15a85b5d"
+provider_pin = "77eb90baa33f76272b5472b2fe3b1592e00b830b"
+changes = ["aspects.toml", ".gitmodules", ".autobahn-crossbar-ai"]
+aspects_toml_sha256 = "61aa2d5f649951d82f82f597e45356083a206de4937c461266f58b7e3bd9060c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
+
+[[member]]
+repo = "wamp-xbr"
+slug = "crossbario/wamp-xbr"
+issue = 197
+base = "aa879e14d981f46cf8c6a8af63c0c6b0afa4b893"
+provider_pin = "77eb90baa33f76272b5472b2fe3b1592e00b830b"
+changes = ["aspects.toml", ".gitmodules", ".autobahn-crossbar-ai"]
+aspects_toml_sha256 = "61aa2d5f649951d82f82f597e45356083a206de4937c461266f58b7e3bd9060c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
