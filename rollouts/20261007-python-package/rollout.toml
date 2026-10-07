@@ -1,0 +1,79 @@
+schema = 1
+id = "20261007-python-package"
+aspect = "python-package"
+status = "executed"
+fleet = "crossbario/autobahn-crossbar-fleet"
+fleet_issue = 13
+
+[provider]
+repo = "crossbario/autobahn-crossbar-ai"
+rev = "77eb90baa33f76272b5472b2fe3b1592e00b830b"
+
+[apex]
+rev = "6f9fe151faf4ad0d6ca076bcedab07ff4a6025e1"
+
+[[member]]
+repo = "autobahn-python"
+slug = "crossbario/autobahn-python"
+issue = 1972
+base = "293c55470fe9db69e86baaee70145e0d4f48f2ec"
+commit = "f7b42f6720c8cf3350412e32f02b34060a77daf7"
+changes = ["aspects.toml"]
+aspects_toml_sha256 = "a5489bc8f9d2ab558f86352cfa175d9f06dffc3b309442a22345c0d94505b45c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
+
+[[member]]
+repo = "crossbar"
+slug = "crossbario/crossbar"
+issue = 2305
+base = "8269cd5bb8d3d8da7153c50be3a155c51f41a3aa"
+commit = "05ee0e64027c59a6436a606ff05cc86baf1493b4"
+changes = ["aspects.toml"]
+aspects_toml_sha256 = "a5489bc8f9d2ab558f86352cfa175d9f06dffc3b309442a22345c0d94505b45c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
+
+[[member]]
+repo = "txaio"
+slug = "crossbario/txaio"
+issue = 234
+base = "d8fe14aa1dc91a8919647c0c31736f962ff4d475"
+commit = "be3fe40d31d5bbea5435ffe0c1c0ae90f1b9576a"
+changes = ["aspects.toml"]
+aspects_toml_sha256 = "a5489bc8f9d2ab558f86352cfa175d9f06dffc3b309442a22345c0d94505b45c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
+
+[[member]]
+repo = "cfxdb"
+slug = "crossbario/cfxdb"
+issue = 131
+base = "ba33442abcf268a9f573fa8a5703bb0564803582"
+commit = "de6575e5c76ae71db78d5d637d560ca6eeb4db7e"
+changes = ["aspects.toml"]
+aspects_toml_sha256 = "a5489bc8f9d2ab558f86352cfa175d9f06dffc3b309442a22345c0d94505b45c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
+
+[[member]]
+repo = "zlmdb"
+slug = "crossbario/zlmdb"
+issue = 158
+base = "03a0dbbe5498d63520a1576953fcd354eefc9bc3"
+commit = "a79c18ed882128ea652e265a2f460b76ca920380"
+changes = ["aspects.toml"]
+aspects_toml_sha256 = "a5489bc8f9d2ab558f86352cfa175d9f06dffc3b309442a22345c0d94505b45c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
+
+[[member]]
+repo = "wamp-xbr"
+slug = "crossbario/wamp-xbr"
+issue = 195
+base = "1725b9902d6e39a079043a3fe0c8688fe51fe813"
+commit = "f53a5ad18472bcc8921294f4a4d3b1337cde6c38"
+changes = ["aspects.toml"]
+aspects_toml_sha256 = "a5489bc8f9d2ab558f86352cfa175d9f06dffc3b309442a22345c0d94505b45c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
