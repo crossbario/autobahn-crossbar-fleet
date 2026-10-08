@@ -28,12 +28,19 @@ repo = "crossbar"
 slug = "crossbario/crossbar"
 issue = 2310
 base = "6e2fe7b9046581e63291fe13e2cdaf0d3f3ecb62"
+commit = "056088bf2de01b91dc2df3cf4083478c6076e73f"
 provider_pin = "ac8a102ff241fee426b7b81961dfa17f3ec2eb7d"
 stop_commit = "4f9161f74ce666b701bba8f9fb2c20c7b94e884d"
 changes = [".autobahn-crossbar-ai"]
 requests = "[{\"decided_by\":[\"human\"],\"observed\":{\"LICENSE\":\"9541e8fdc360b36d203952aee58f01ab845c155b0432a85f7684779842b4abf1\",\"pyproject.toml#project.license\":\"EUPL-1.2\"},\"options\":[\"keep\",\"relicense:MIT\"],\"path\":\"pyproject.toml\",\"precondition\":{\"paths\":[\"LICENSE\",\"pyproject.toml#project.license\"],\"sha256\":\"3578e7272eb1cfe8ed6a13fc5a1ba1474b163fc8ba614dad963137e82265d3c8\"},\"question\":\"House standard: OSS = MIT, closed = LicenseRef-Proprietary. This package declares EUPL-1.2. Keep it?\",\"type\":\"license_deviation\"}]"
-changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
-changeset = "[]"
+changeset_sha256 = "b41f176cd69a4ff9abfb3f9654c94343e54b87e90b6e44ccbbd6d7c17ca4d5bd"
+changeset = "[{\"action\":\"ruff_extend_exclude\",\"add\":[\".ai\",\".autobahn-crossbar-ai\",\".cicd\"],\"kind\":\"file_modify\",\"path\":\"pyproject.toml\"}]"
+
+[[member.decision]]
+commit = "d9042e35d89d7cdb1dc5b522d6c1f591c66822c6"
+type = "license_deviation"
+decided_by = "human"
+precondition_sha256 = "3578e7272eb1cfe8ed6a13fc5a1ba1474b163fc8ba614dad963137e82265d3c8"
 
 [[member]]
 repo = "txaio"
