@@ -23,7 +23,7 @@ The tools that read this repository are in
 | path | what |
 |---|---|
 | [`fleet.toml`](fleet.toml) | the inventory: the cohorts, and every repository with its GitHub slug, default branch and cohorts. **Generated - do not edit by hand.** |
-| [`rollouts/<id>/rollout.toml`](rollouts/) | one record per rollout, `<id>` = `YYYYMMDD-<aspect>[-N]`. |
+| [`rollouts/<id>/rollout.toml`](rollouts/) | one record per rollout, `<id>` = `YYYYMMDD-<aspect>[-N]`; the index is [`rollouts/README.md`](rollouts/README.md) (generated). |
 | `.ai/`, `.cicd/` | the shared AI policy and CI/CD tooling, as in every repository of the fleet. |
 | `.audit/` | the AI-assistance disclosure per branch. |
 
@@ -68,9 +68,8 @@ The fleet driver writes it as the rollout moves through its human gates - filing
 cutting the branches, landing - which a maintainer does and signs. While the rollout runs the
 record lives on this repository's dev branch; it is landed here once the rollout is converged.
 
-| rollout | what |
-|---|---|
-| [`20261007-python-package`](rollouts/20261007-python-package/rollout.toml) | the `python-package` aspect: the `aspects.toml` membership (`pypi` -> `pypi-release`) in all six members. |
+Every record is listed in [`rollouts/README.md`](rollouts/README.md), which the fleet driver
+regenerates from the records at each close-out - a hand-kept table here went stale within a day.
 
 The v1 rollouts (`rollouts/way-a/`, scripts applied by a runner) are in the Git history before #13.
 
