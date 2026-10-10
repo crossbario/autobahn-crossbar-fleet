@@ -1,0 +1,123 @@
+schema = 1
+id = "20261010-way-a"
+aspect = "way-a"
+status = "issues-filed"
+fleet = "crossbario/autobahn-crossbar-fleet"
+fleet_issue = 20
+
+[provider]
+repo = "wamp-proto/wamp-ai"
+rev = "ca453dfcec5bd859bd58b15905d5fbb67b80526c"
+
+[apex]
+rev = "ace0507af1475ef4c647f49ea0e74a2e0a3a328d"
+
+[[member]]
+repo = "autobahn-python"
+slug = "crossbario/autobahn-python"
+issue = 1981
+base = "ef17fc3184f140c3ed4e375e422930093d8fe77c"
+provider_pin = "ca453dfcec5bd859bd58b15905d5fbb67b80526c"
+changes = ["aspects.toml", ".ai", ".cicd"]
+aspects_toml_sha256 = "552947daaf1a8216e7a031e3788e4e5075da5e6d13b845dfba3011636ab6f033"
+changeset_sha256 = "9085b0f9903760b3a2d56a7a75eb319eccd20a5fd4b81980ffc038c07ee86b00"
+changeset = "[{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".ai\",\"rev\":\"ca453dfcec5bd859bd58b15905d5fbb67b80526c\",\"url\":\"https://github.com/wamp-proto/wamp-ai.git\"},{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".cicd\",\"rev\":\"e40ae1e3452d521840bfd5fe7a1341d620dcc60c\",\"url\":\"https://github.com/wamp-proto/wamp-cicd.git\"}]"
+
+[[member]]
+repo = "autobahn-js"
+slug = "crossbario/autobahn-js"
+issue = 611
+base = "641a85f418940b315405aa8490e11545614dc109"
+provider_pin = "ca453dfcec5bd859bd58b15905d5fbb67b80526c"
+changes = ["aspects.toml", ".ai", ".cicd"]
+aspects_toml_sha256 = "c8767431dd7a01154665709b8cf147a6b4031da09f9a8116aa39a5ca96a59fca"
+changeset_sha256 = "9085b0f9903760b3a2d56a7a75eb319eccd20a5fd4b81980ffc038c07ee86b00"
+changeset = "[{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".ai\",\"rev\":\"ca453dfcec5bd859bd58b15905d5fbb67b80526c\",\"url\":\"https://github.com/wamp-proto/wamp-ai.git\"},{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".cicd\",\"rev\":\"e40ae1e3452d521840bfd5fe7a1341d620dcc60c\",\"url\":\"https://github.com/wamp-proto/wamp-cicd.git\"}]"
+
+[[member]]
+repo = "autobahn-testsuite"
+slug = "crossbario/autobahn-testsuite"
+issue = 167
+base = "aa9099a4eaa38b3298a72bd24c824f507c9424fa"
+provider_pin = "ca453dfcec5bd859bd58b15905d5fbb67b80526c"
+changes = ["aspects.toml", ".ai", ".cicd"]
+aspects_toml_sha256 = "c8767431dd7a01154665709b8cf147a6b4031da09f9a8116aa39a5ca96a59fca"
+changeset_sha256 = "9085b0f9903760b3a2d56a7a75eb319eccd20a5fd4b81980ffc038c07ee86b00"
+changeset = "[{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".ai\",\"rev\":\"ca453dfcec5bd859bd58b15905d5fbb67b80526c\",\"url\":\"https://github.com/wamp-proto/wamp-ai.git\"},{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".cicd\",\"rev\":\"e40ae1e3452d521840bfd5fe7a1341d620dcc60c\",\"url\":\"https://github.com/wamp-proto/wamp-cicd.git\"}]"
+
+[[member]]
+repo = "crossbar"
+slug = "crossbario/crossbar"
+issue = 2316
+base = "9385ea3bc66a53b0240527722cf02f43335fbb0a"
+provider_pin = "ca453dfcec5bd859bd58b15905d5fbb67b80526c"
+changes = ["aspects.toml", ".ai", ".cicd"]
+aspects_toml_sha256 = "552947daaf1a8216e7a031e3788e4e5075da5e6d13b845dfba3011636ab6f033"
+changeset_sha256 = "9085b0f9903760b3a2d56a7a75eb319eccd20a5fd4b81980ffc038c07ee86b00"
+changeset = "[{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".ai\",\"rev\":\"ca453dfcec5bd859bd58b15905d5fbb67b80526c\",\"url\":\"https://github.com/wamp-proto/wamp-ai.git\"},{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".cicd\",\"rev\":\"e40ae1e3452d521840bfd5fe7a1341d620dcc60c\",\"url\":\"https://github.com/wamp-proto/wamp-cicd.git\"}]"
+
+[[member]]
+repo = "txaio"
+slug = "crossbario/txaio"
+issue = 244
+base = "e43531b90ea8d718f0a718eac3e3158ebdc9b0a9"
+provider_pin = "ca453dfcec5bd859bd58b15905d5fbb67b80526c"
+changes = ["aspects.toml", ".ai", ".cicd"]
+aspects_toml_sha256 = "552947daaf1a8216e7a031e3788e4e5075da5e6d13b845dfba3011636ab6f033"
+changeset_sha256 = "9085b0f9903760b3a2d56a7a75eb319eccd20a5fd4b81980ffc038c07ee86b00"
+changeset = "[{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".ai\",\"rev\":\"ca453dfcec5bd859bd58b15905d5fbb67b80526c\",\"url\":\"https://github.com/wamp-proto/wamp-ai.git\"},{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".cicd\",\"rev\":\"e40ae1e3452d521840bfd5fe7a1341d620dcc60c\",\"url\":\"https://github.com/wamp-proto/wamp-cicd.git\"}]"
+
+[[member]]
+repo = "cfxdb"
+slug = "crossbario/cfxdb"
+issue = 142
+base = "4be457d40e21ee8589c4874c69e719a60621f092"
+provider_pin = "ca453dfcec5bd859bd58b15905d5fbb67b80526c"
+changes = ["aspects.toml", ".ai", ".cicd"]
+aspects_toml_sha256 = "552947daaf1a8216e7a031e3788e4e5075da5e6d13b845dfba3011636ab6f033"
+changeset_sha256 = "9085b0f9903760b3a2d56a7a75eb319eccd20a5fd4b81980ffc038c07ee86b00"
+changeset = "[{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".ai\",\"rev\":\"ca453dfcec5bd859bd58b15905d5fbb67b80526c\",\"url\":\"https://github.com/wamp-proto/wamp-ai.git\"},{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".cicd\",\"rev\":\"e40ae1e3452d521840bfd5fe7a1341d620dcc60c\",\"url\":\"https://github.com/wamp-proto/wamp-cicd.git\"}]"
+
+[[member]]
+repo = "zlmdb"
+slug = "crossbario/zlmdb"
+issue = 166
+base = "82364108bdf66a38122f6d837e99b5b4311fe044"
+provider_pin = "ca453dfcec5bd859bd58b15905d5fbb67b80526c"
+changes = ["aspects.toml", ".ai", ".cicd"]
+aspects_toml_sha256 = "552947daaf1a8216e7a031e3788e4e5075da5e6d13b845dfba3011636ab6f033"
+changeset_sha256 = "9085b0f9903760b3a2d56a7a75eb319eccd20a5fd4b81980ffc038c07ee86b00"
+changeset = "[{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".ai\",\"rev\":\"ca453dfcec5bd859bd58b15905d5fbb67b80526c\",\"url\":\"https://github.com/wamp-proto/wamp-ai.git\"},{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".cicd\",\"rev\":\"e40ae1e3452d521840bfd5fe7a1341d620dcc60c\",\"url\":\"https://github.com/wamp-proto/wamp-cicd.git\"}]"
+
+[[member]]
+repo = "wamp-xbr"
+slug = "crossbario/wamp-xbr"
+issue = 207
+base = "57308b7948ec817fa10232c63866b2a75768e076"
+provider_pin = "ca453dfcec5bd859bd58b15905d5fbb67b80526c"
+changes = ["aspects.toml", ".ai", ".cicd"]
+aspects_toml_sha256 = "552947daaf1a8216e7a031e3788e4e5075da5e6d13b845dfba3011636ab6f033"
+changeset_sha256 = "9085b0f9903760b3a2d56a7a75eb319eccd20a5fd4b81980ffc038c07ee86b00"
+changeset = "[{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".ai\",\"rev\":\"ca453dfcec5bd859bd58b15905d5fbb67b80526c\",\"url\":\"https://github.com/wamp-proto/wamp-ai.git\"},{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".cicd\",\"rev\":\"e40ae1e3452d521840bfd5fe7a1341d620dcc60c\",\"url\":\"https://github.com/wamp-proto/wamp-cicd.git\"}]"
+
+[[member]]
+repo = "autobahn-crossbar-ai"
+slug = "crossbario/autobahn-crossbar-ai"
+issue = 18
+base = "476004a0f38a7e8be236f4033853109597493af5"
+provider_pin = "ca453dfcec5bd859bd58b15905d5fbb67b80526c"
+changes = ["aspects.toml", "deps.toml"]
+aspects_toml_sha256 = "2daa29c1bec2e6a18736583b5b18df348b176a0f8e2f0f2f50b805dabe277476"
+changeset_sha256 = "a42a3489693a4ace37491e766c82e0068eeed35265a63185eff35df65fde1dbb"
+changeset = "[{\"action\":\"deps_pin\",\"commit\":\"ca453dfcec5bd859bd58b15905d5fbb67b80526c\",\"kind\":\"file_modify\",\"name\":\"wamp-ai\",\"path\":\"deps.toml\",\"url\":\"https://github.com/wamp-proto/wamp-ai.git\"},{\"action\":\"deps_pin\",\"commit\":\"e40ae1e3452d521840bfd5fe7a1341d620dcc60c\",\"kind\":\"file_modify\",\"name\":\"wamp-cicd\",\"path\":\"deps.toml\",\"url\":\"https://github.com/wamp-proto/wamp-cicd.git\"}]"
+
+[[member]]
+repo = "autobahn-crossbar-fleet"
+slug = "crossbario/autobahn-crossbar-fleet"
+issue = 19
+base = "5238846c2d1e118be511716080ce33d511636493"
+provider_pin = "ca453dfcec5bd859bd58b15905d5fbb67b80526c"
+changes = ["aspects.toml", ".ai", ".cicd"]
+aspects_toml_sha256 = "3c9516323c489bedf78347c9fad459317a212ca33303088b78d267bc075edabb"
+changeset_sha256 = "9085b0f9903760b3a2d56a7a75eb319eccd20a5fd4b81980ffc038c07ee86b00"
+changeset = "[{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".ai\",\"rev\":\"ca453dfcec5bd859bd58b15905d5fbb67b80526c\",\"url\":\"https://github.com/wamp-proto/wamp-ai.git\"},{\"action\":\"submodule_pin\",\"kind\":\"submodule_update\",\"path\":\".cicd\",\"rev\":\"e40ae1e3452d521840bfd5fe7a1341d620dcc60c\",\"url\":\"https://github.com/wamp-proto/wamp-cicd.git\"}]"
