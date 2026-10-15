@@ -1,7 +1,7 @@
 schema = 1
 id = "20261015-zlmdb-py-lmdb-fork"
 aspect = "zlmdb-py-lmdb-fork"
-status = "issues-filed"
+status = "executed"
 fleet = "crossbario/autobahn-crossbar-fleet"
 fleet_issue = 25
 
@@ -17,6 +17,7 @@ repo = "zlmdb"
 slug = "crossbario/zlmdb"
 issue = 178
 base = "52f47c8a08711c1082890eb10099198e51c375f7"
+commit = "4d0d557aee48d8c84f853740f9fa32c2f853fc8f"
 provider_pin = "8a326f53ac1eccbe67f9b33a32a0ae4dd9959fad"
 changes = ["aspects.toml", ".autobahn-crossbar-ai"]
 aspects_toml_sha256 = "a23ca8943835c0ffb6370426a5640f702fefb686ade1d50e318987aa5869174c"
