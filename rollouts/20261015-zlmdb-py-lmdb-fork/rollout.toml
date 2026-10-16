@@ -1,0 +1,29 @@
+schema = 1
+id = "20261015-zlmdb-py-lmdb-fork"
+aspect = "zlmdb-py-lmdb-fork"
+status = "converged"
+fleet = "crossbario/autobahn-crossbar-fleet"
+fleet_issue = 25
+
+[provider]
+repo = "crossbario/autobahn-crossbar-ai"
+rev = "8a326f53ac1eccbe67f9b33a32a0ae4dd9959fad"
+
+[apex]
+rev = "e24e6a05faa77795a132bb975383358a75a67423"
+
+[[member]]
+repo = "zlmdb"
+slug = "crossbario/zlmdb"
+issue = 178
+base = "52f47c8a08711c1082890eb10099198e51c375f7"
+commit = "4d0d557aee48d8c84f853740f9fa32c2f853fc8f"
+merge = "f754e782df3e383a2ea70203257bc76ddfbc50d5"
+provider_pin = "8a326f53ac1eccbe67f9b33a32a0ae4dd9959fad"
+proof_provider_rev = "8a326f53ac1eccbe67f9b33a32a0ae4dd9959fad"
+proof_rev = "9c011a94d7f415318a5615ed1a52a5d6b0643d18"
+proof_changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changes = ["aspects.toml", ".autobahn-crossbar-ai"]
+aspects_toml_sha256 = "a23ca8943835c0ffb6370426a5640f702fefb686ade1d50e318987aa5869174c"
+changeset_sha256 = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+changeset = "[]"
