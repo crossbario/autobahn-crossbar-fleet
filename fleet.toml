@@ -10,6 +10,10 @@ name        = "fleet-repo"
 description = "aspect fleet-repo (membership; defined in its aspect repo)"
 
 [[cohort]]
+name        = "gh-actions"
+description = "aspect gh-actions (membership; defined in its aspect repo)"
+
+[[cohort]]
 name        = "pypi-release"
 description = "aspect pypi-release (membership; defined in its aspect repo)"
 
@@ -37,13 +41,13 @@ description = "aspect zlmdb-py-lmdb-fork (membership; defined in its aspect repo
 name           = "autobahn-python"
 slug           = "crossbario/autobahn-python"
 default_branch = "master"
-cohorts        = ["way-a", "pypi-release", "python-package", "sphinx-docs", "rtd-release"]
+cohorts        = ["way-a", "gh-actions", "pypi-release", "python-package", "sphinx-docs", "rtd-release"]
 
 [[repo]]
 name           = "autobahn-js"
 slug           = "crossbario/autobahn-js"
 default_branch = "master"
-cohorts        = ["way-a"]
+cohorts        = ["way-a", "gh-actions"]
 
 [[repo]]
 name           = "autobahn-java"
@@ -67,7 +71,7 @@ cohorts        = ["way-a"]
 name           = "crossbar"
 slug           = "crossbario/crossbar"
 default_branch = "master"
-cohorts        = ["way-a", "pypi-release", "python-package", "sphinx-docs", "rtd-release"]
+cohorts        = ["way-a", "gh-actions", "pypi-release", "python-package", "sphinx-docs", "rtd-release"]
 
 [[repo]]
 name           = "crossbar-examples"
@@ -79,25 +83,25 @@ cohorts        = []
 name           = "txaio"
 slug           = "crossbario/txaio"
 default_branch = "master"
-cohorts        = ["way-a", "pypi-release", "python-package", "sphinx-docs", "rtd-release"]
+cohorts        = ["way-a", "gh-actions", "pypi-release", "python-package", "sphinx-docs", "rtd-release"]
 
 [[repo]]
 name           = "cfxdb"
 slug           = "crossbario/cfxdb"
 default_branch = "master"
-cohorts        = ["way-a", "pypi-release", "python-package", "sphinx-docs", "rtd-release"]
+cohorts        = ["way-a", "gh-actions", "pypi-release", "python-package", "sphinx-docs", "rtd-release"]
 
 [[repo]]
 name           = "zlmdb"
 slug           = "crossbario/zlmdb"
 default_branch = "master"
-cohorts        = ["way-a", "pypi-release", "python-package", "sphinx-docs", "rtd-release", "zlmdb-py-lmdb-fork"]
+cohorts        = ["way-a", "gh-actions", "pypi-release", "python-package", "sphinx-docs", "rtd-release", "zlmdb-py-lmdb-fork"]
 
 [[repo]]
 name           = "wamp-xbr"
 slug           = "crossbario/wamp-xbr"
 default_branch = "master"
-cohorts        = ["way-a", "pypi-release", "python-package", "sphinx-docs", "rtd-release"]
+cohorts        = ["way-a", "gh-actions", "pypi-release", "python-package", "sphinx-docs", "rtd-release"]
 
 [[repo]]
 name           = "sphinxcontrib-soliditydomain"
