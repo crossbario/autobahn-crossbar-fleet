@@ -1,0 +1,46 @@
+schema = 1
+id = "20261112-gh-actions"
+aspect = "gh-actions"
+status = "issues-filed"
+fleet = "crossbario/autobahn-crossbar-fleet"
+fleet_issue = 34
+
+[provider]
+repo = "wamp-proto/wamp-ai"
+rev = "ff7eb5d8c5fa44a48ff1cb7d3597dd508e831f6c"
+
+[apex]
+rev = "5726cf8517eb5dfb46d7e515df6db77a1675c3cd"
+
+[[member]]
+repo = "autobahn-testsuite"
+slug = "crossbario/autobahn-testsuite"
+issue = 172
+base = "ff462c0a7ccb6512ad8442d09dab371a3c40a843"
+provider_pin = "ff7eb5d8c5fa44a48ff1cb7d3597dd508e831f6c"
+changes = ["aspects.toml", ".ai", ".github/workflows/main.yml"]
+aspects_toml_sha256 = "de6ed99ab8db55027396b838fe9839089df0d06b7d4e02d6ce61fb21bbe70950"
+changeset_sha256 = "33c1f620d83bcc64d51940d00496e3f8a17442eaf8511508d8bff942533fa7d1"
+changeset = "[{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":27,\"new\":\"        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1\",\"old\":\"        uses: actions/checkout@v4\",\"path\":\".github/workflows/main.yml\"},{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":51,\"new\":\"        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0\",\"old\":\"        uses: actions/cache@v4\",\"path\":\".github/workflows/main.yml\"},{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":86,\"new\":\"        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0\",\"old\":\"        uses: actions/cache/save@v4\",\"path\":\".github/workflows/main.yml\"},{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":158,\"new\":\"        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2\",\"old\":\"        uses: actions/upload-artifact@v4\",\"path\":\".github/workflows/main.yml\"},{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":168,\"new\":\"        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1\",\"old\":\"        uses: actions/checkout@v4\",\"path\":\".github/workflows/main.yml\"},{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":230,\"new\":\"        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2\",\"old\":\"        uses: actions/upload-artifact@v4\",\"path\":\".github/workflows/main.yml\"}]"
+
+[[member]]
+repo = "autobahn-crossbar-ai"
+slug = "crossbario/autobahn-crossbar-ai"
+issue = 25
+base = "8a326f53ac1eccbe67f9b33a32a0ae4dd9959fad"
+provider_pin = "ff7eb5d8c5fa44a48ff1cb7d3597dd508e831f6c"
+changes = ["aspects.toml", "deps.toml", ".github/workflows/check.yml"]
+aspects_toml_sha256 = "25e85ff3ca134efcaae9b8e8645c29aecb1eb6e0d2e5cc8b1d28c38a3471ee0d"
+changeset_sha256 = "af45a09b7094229f5941ef0714a5690a0c31feafc0fad0ae245c769bcd311bab"
+changeset = "[{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":23,\"new\":\"      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1\",\"old\":\"      - uses: actions/checkout@v4\",\"path\":\".github/workflows/check.yml\"},{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":31,\"new\":\"      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3\",\"old\":\"      - uses: astral-sh/setup-uv@v6\",\"path\":\".github/workflows/check.yml\"},{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":32,\"new\":\"      - uses: extractions/setup-just@53165ef7e734c5c07cb06b3c8e7b647c5aa16db3 # v4.0.0\",\"old\":\"      - uses: extractions/setup-just@v3\",\"path\":\".github/workflows/check.yml\"},{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":44,\"new\":\"      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1\",\"old\":\"      - uses: actions/checkout@v4\",\"path\":\".github/workflows/check.yml\"},{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":49,\"new\":\"      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3\",\"old\":\"      - uses: astral-sh/setup-uv@v6\",\"path\":\".github/workflows/check.yml\"},{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":50,\"new\":\"      - uses: extractions/setup-just@53165ef7e734c5c07cb06b3c8e7b647c5aa16db3 # v4.0.0\",\"old\":\"      - uses: extractions/setup-just@v3\",\"path\":\".github/workflows/check.yml\"}]"
+
+[[member]]
+repo = "autobahn-crossbar-fleet"
+slug = "crossbario/autobahn-crossbar-fleet"
+issue = 33
+base = "08d2dc11bdb2c6344ac54482b909461de04b9955"
+provider_pin = "ff7eb5d8c5fa44a48ff1cb7d3597dd508e831f6c"
+changes = ["aspects.toml", ".ai", ".github/workflows/check.yml"]
+aspects_toml_sha256 = "e403fb337e60ba2f736550f4235aba9ed9697c65fd67c7df9fdb2cdb0ae3067c"
+changeset_sha256 = "92a00d0c4b8a3ec2bf1f0c12466afd4265cfde605dae6ef78205d55910b5f125"
+changeset = "[{\"action\":\"line_replace\",\"kind\":\"file_modify\",\"line\":20,\"new\":\"      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1\",\"old\":\"      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2\",\"path\":\".github/workflows/check.yml\"}]"
