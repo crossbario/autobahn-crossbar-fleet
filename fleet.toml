@@ -65,7 +65,7 @@ cohorts        = []
 name           = "autobahn-testsuite"
 slug           = "crossbario/autobahn-testsuite"
 default_branch = "master"
-cohorts        = ["way-a"]
+cohorts        = ["way-a", "gh-actions"]
 
 [[repo]]
 name           = "crossbar"
@@ -113,10 +113,10 @@ cohorts        = []
 name           = "autobahn-crossbar-ai"
 slug           = "crossbario/autobahn-crossbar-ai"
 default_branch = "main"
-cohorts        = ["way-a", "aspect-repo", "python-package"]
+cohorts        = ["way-a", "gh-actions", "aspect-repo", "python-package"]
 
 [[repo]]
 name           = "autobahn-crossbar-fleet"
 slug           = "crossbario/autobahn-crossbar-fleet"
 default_branch = "main"
-cohorts        = ["way-a", "fleet-repo"]
+cohorts        = ["way-a", "gh-actions", "fleet-repo"]
